@@ -47,6 +47,8 @@ class Match(Joueur):
         Tour1.append(match3)
         match4 = [liste_joueurs[3], liste_joueurs[7]]
         Tour1.append(match4)
+        for a, b in Tour1:
+            print(a.prenom, "-", b.prenom)
 
     def creer_ronde_suivante():  # On créé de nouveaux matchs
         # On tient compte du classement mis à jour
@@ -58,6 +60,8 @@ class Match(Joueur):
         Tour1.append(match3)
         match4 = [liste_joueurs[6], liste_joueurs[7]]
         Tour1.append(match4)
+        for a, b in Tour1:
+            print(a.prenom, "-", b.prenom)
 
     def recuperer_scores():  # Fonction de récupération des scores
         a = Tour1[0]  # On affiche le match n°1 de la liste créée : "Tour 1"
