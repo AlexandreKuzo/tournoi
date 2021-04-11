@@ -29,7 +29,7 @@ Le programme est prêt à travailler en Python. Les commandes pour le faire fonc
 
 ## Executer le script
 
-Tout se joue dans le fichier "tupletest.py" ; pour l'exécuter il vous suffira de taper la commande ``python3 tupletest.py`` ; grandtournoi.py doit être dans le même dossier, sans quoi vous n'aurez pas les fonctions qui vont avec.
+Tout se joue dans le fichier "main.py" ; pour l'exécuter il vous suffira de taper la commande ``python3 main.py`` ; grandtournoi.py doit être dans le même dossier, sans quoi vous n'aurez pas les fonctions qui vont avec.
 
 
 ## Auteur
